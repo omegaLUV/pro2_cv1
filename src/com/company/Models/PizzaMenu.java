@@ -19,6 +19,7 @@ public class PizzaMenu {
 
     public void addItem(PizzaMenuItem item) {
         items.add(item);
+        lastUpdate = LocalDateTime.now();
     }
 
     public int itemsCount() {
